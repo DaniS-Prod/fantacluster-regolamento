@@ -178,7 +178,7 @@ In caso di **svincolo** di un giocatore, inclusi quelli trasferiti all'estero, i
 | 4-3-3 | 4-4-2 | 4-5-1 |
 | 5-3-2 | 5-4-1 | |
 
-## Art. 9 — Composizione della panchina e cambi {#art-9}
+## Art. 9 — Composizione panchina, cambi, e inserimento formazione {#art-9}
 
 ### 9.1 {#art-9-1}
 
