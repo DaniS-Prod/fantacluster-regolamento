@@ -194,6 +194,10 @@ Sono previsti **fino a 5 (cinque) cambi** e, fermo restando quanto previsto dall
 
 Qualora non sia possibile il cambio per corrispondenza di ruolo, si applica l'art. 10.2 (**cambio modulo automatico**).
 
+### 9.4 {#art-9-4}
+
+Il limite temporale per l'inserimento e la modifica della formazione coincide con l'inizio della giornata (fischio d'inizio della prima gara del turno). Trascorso tale termine non è più consentita alcuna modifica alla formazione schierata.
+
 ## Art. 10 — Bonus modificatori, cambio modulo, cambi in corso di giornata e altre facilitazioni {#art-10}
 
 ### 10.1 {#art-10-1}
