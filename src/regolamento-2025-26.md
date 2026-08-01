@@ -31,7 +31,7 @@ Sono iscritte, per il Fantacluster 2025-2026, le squadre di cui alla Tabella A (
 | 8 | Fuori Budget FC | Mattia Rizzi | |
 | 9 | Merdsk | Stefano Musso | |
 | 10 | Las Pezia | Gianluca Sigismondi | |
-| 11 | TBD | Daniele Sestani | Presidente |
+| 11 | Sestolans FC | Daniele Sestani | Presidente |
 | 12 | Sir Daniel Fortesque | Tiziano Pavanini | |
 
 ## Art. 2 — Quota di partecipazione e montepremi {#art-2}
@@ -308,4 +308,4 @@ W IL FANTACLUSTER
 | Sestolans FC | Daniele Sestani |
 | Sir Daniel Fortesque | Tiziano Pavanini |
 
-> **Nota di conversione.** Il blocco firme dell'originale riporta per tre squadre denominazioni diverse da quelle della Tabella A (Recco FC / FC Ricchio, Gryphon Down / KUNG-FU PANDEV-MIA, Sestolans FC / TBD) e non contiene la sottoscrizione di Simone Vona (FC Porca Madovbyk). Riportato fedelmente; da allineare in sede di revisione.
+> **Nota di conversione.** Il blocco firme dell'originale riporta per due squadre denominazioni diverse da quelle della Tabella A (Recco FC / FC Ricchio, Gryphon Down / KUNG-FU PANDEV-MIA) e non contiene la sottoscrizione di Simone Vona (FC Porca Madovbyk). Riportato fedelmente; da allineare in sede di revisione.
