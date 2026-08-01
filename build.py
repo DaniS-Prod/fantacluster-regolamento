@@ -54,6 +54,18 @@ INCLUDI_FIRME = False
 # Lascialo "" per usare l'indirizzo corrente della pagina.
 SITE_URL = ""
 
+# Raggruppamento dell'indice (sidebar) in macro-sezioni collassabili.
+# Ogni gruppo e' (nome, [id_articolo, ...]) e viene reso nell'ordine indicato.
+# Gli articoli il cui id non compare in nessun gruppo finiscono in "Altro"
+# (mostrato solo se non vuoto), cosi' un articolo nuovo non mappato non sparisce.
+GRUPPI_INDICE = [
+    ("Regole generali", ["art-1", "art-2", "art-3"]),
+    ("Mercato e budget", ["art-6", "art-12"]),
+    ("Formazione e campo", ["art-7", "art-8", "art-9"]),
+    ("Punteggio e bonus", ["art-4", "art-5", "art-10", "art-11"]),
+    ("Norme e comportamento", ["art-13", "art-14"]),
+]
+
 MESI_IT = [
     "", "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
     "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre",
@@ -500,17 +512,42 @@ def html_appendice(a):
 
 
 def html_indice(articoli, appendici):
-    voci = [
-        f'    <li><a href="#{a["id"]}"><span class="idx-num">{a["num"]}</span>'
-        f'<span class="idx-txt">{a["titolo_html"]}</span></a></li>'
-        for a in articoli
-    ]
-    for a in appendici:
-        voci.append(
+    def voce(a):
+        return (f'    <li><a href="#{a["id"]}"><span class="idx-num">{a["num"]}</span>'
+                f'<span class="idx-txt">{a["titolo_html"]}</span></a></li>')
+
+    def gruppo(nome, arts):
+        voci = "\n".join(voce(a) for a in arts)
+        return (f'<details class="idx-group"><summary>{html.escape(nome)}</summary>'
+                f'<ol class="index-list">\n{voci}\n  </ol></details>')
+
+    per_id = {a["id"]: a for a in articoli}
+    usati = set()
+    blocchi = []
+
+    # Gruppi predefiniti, nell'ordine di GRUPPI_INDICE.
+    for nome, ids in GRUPPI_INDICE:
+        arts = [per_id[i] for i in ids if i in per_id]
+        for a in arts:
+            usati.add(a["id"])
+        if arts:
+            blocchi.append(gruppo(nome, arts))
+
+    # Articoli non mappati in alcun gruppo -> gruppo "Altro" (solo se non vuoto).
+    resto = [a for a in articoli if a["id"] not in usati]
+    if resto:
+        blocchi.append(gruppo("Altro", resto))
+
+    # Appendici (es. Sottoscrizioni) fuori dai gruppi, in coda, rendering invariato.
+    if appendici:
+        voci_app = "\n".join(
             f'    <li class="idx-appendix"><a href="#{a["id"]}">'
             f'<span class="idx-num">§</span><span class="idx-txt">{a["titolo_html"]}</span></a></li>'
+            for a in appendici
         )
-    return '<ol class="index-list">\n' + "\n".join(voci) + "\n  </ol>"
+        blocchi.append(f'<ol class="index-list">\n{voci_app}\n  </ol>')
+
+    return "\n".join(blocchi)
 
 
 def costruisci_html(doc, stagione, data_dt, data_txt):
@@ -673,6 +710,18 @@ a{color:var(--accent-ink)}
 .idx-txt{flex:1}
 .idx-appendix{margin-top:.4rem;border-top:1px solid var(--border);padding-top:.4rem}
 .idx-appendix .idx-num{color:var(--muted)}
+.idx-group{margin:0 0 .35rem}
+.idx-group>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:.45rem;
+  padding:.42rem .55rem;border-radius:8px;
+  font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--muted);font-weight:700}
+.idx-group>summary::-webkit-details-marker{display:none}
+.idx-group>summary::before{content:"";flex:0 0 auto;width:0;height:0;
+  border-left:5px solid currentColor;border-top:4px solid transparent;
+  border-bottom:4px solid transparent;transition:transform .15s ease}
+.idx-group[open]>summary::before{transform:rotate(90deg)}
+.idx-group>summary:hover{background:var(--accent-soft);color:var(--accent-ink)}
+.idx-group .index-list{margin:.1rem 0 .2rem}
 
 .content{min-width:0}
 .preamble{max-width:var(--maxw);color:var(--muted);font-size:1.02rem;
