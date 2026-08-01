@@ -518,7 +518,7 @@ def html_indice(articoli, appendici):
 
     def gruppo(nome, arts):
         voci = "\n".join(voce(a) for a in arts)
-        return (f'<details class="idx-group"><summary>{html.escape(nome)}</summary>'
+        return (f'<details class="idx-group" open><summary>{html.escape(nome)}</summary>'
                 f'<ol class="index-list">\n{voci}\n  </ol></details>')
 
     per_id = {a["id"]: a for a in articoli}
