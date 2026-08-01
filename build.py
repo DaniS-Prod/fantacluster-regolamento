@@ -60,9 +60,9 @@ SITE_URL = ""
 # (mostrato solo se non vuoto), cosi' un articolo nuovo non mappato non sparisce.
 GRUPPI_INDICE = [
     ("Regole generali", ["art-1", "art-2", "art-3"]),
-    ("Mercato e budget", ["art-6", "art-12"]),
-    ("Formazione e campo", ["art-7", "art-8", "art-9"]),
-    ("Punteggio e bonus", ["art-4", "art-5", "art-10", "art-11"]),
+    ("Mercato e budget", ["art-4", "art-5"]),
+    ("Formazione e campo", ["art-6", "art-7", "art-8"]),
+    ("Punteggio e bonus", ["art-9", "art-10", "art-11", "art-12"]),
     ("Norme e comportamento", ["art-13", "art-14"]),
 ]
 
