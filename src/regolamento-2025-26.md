@@ -4,7 +4,7 @@ stagione: "2025-2026"
 stato: vigente
 note_conversione: >
   Trascrizione fedele del documento Word originale. Le anomalie presenti
-  nell'originale (Tabella C troncata, art. 4.5.5 con placeholder TBD,
+  nell'originale (Tabella C troncata, art. 4.5.6 con placeholder TBD,
   disallineamento tra Tabella A e blocco firme) sono state conservate
   e marcate con la classe CSS "anomalia" dove opportuno.
 ---
@@ -105,6 +105,10 @@ la conferma di un giocatore comporta il pagamento di un costo pari al **triplo**
 al termine del secondo anno di conferma, il giocatore sarà automaticamente svincolato e non potrà essere confermato per un terzo anno consecutivo;
 
 #### 4.5.5 {#art-4-5-5}
+
+Obbligatorio esplicitare durante il rilancio che viene fatto **con contratto**. Non può essere fatto a posteriori dopo chiusura asta. (Es: Offro 1 con contratto -> 3. Chi vuole rilanciare, basta dire 2)
+
+#### 4.5.6 {#art-4-5-6}
 
 alla data del presente documento, i **giocatori confermati per la stagione in corso** risultano:
 
