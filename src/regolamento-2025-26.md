@@ -66,6 +66,10 @@ Le competizioni fanno riferimento al Campionato italiano di calcio maschile "Ser
 | **Coppa Italcoso** | Vincente: Euro 130 | Torneo in modalità "Champions League" con due gironi da sei squadre ciascuno.<br><br>Le prime quattro classificate di ogni girone accedono ai quarti di finale, che verranno disputati andata e ritorno.<br><br>Le vincenti accedono alle semifinali, che verranno disputate andata e ritorno.<br><br>Le vincenti accedono alla finale, che verrà disputata a gara secca.<br><br>In caso di parità di gol segnati al termine delle partite, non saranno previsti supplementari e/o rigori, ma sarà decretata vincitrice la squadra che avrà totalizzato un maggiore numero di punti calcolati ai sensi degli artt. 11 ss.<br><br>In caso di parità assoluta tra gol segnati e punti totalizzati, la finale sarà ripetuta alla giornata successiva. |
 | **Cluster Royale** | 1° classificato: Euro 160 | Torneo in modalità "tutti contro tutti" in cui i punti totalizzati vengono sommati giornata per giornata e vince chi, al termine del campionato di Serie A, ha totalizzato il maggiore numero di punti. |
 
+### 3.3 {#art-3-3}
+
+I premi di cui alla Tabella B, anziché essere corrisposti in denaro, vengono investiti in strumenti finanziari. La scelta degli strumenti finanziari è decisa collegialmente da tutti i Fantallenatori durante l'asta di cui all'art. 4.
+
 ## Art. 4 — Budget, prima asta, aste di riparazione e "conferme" {#art-4}
 
 ### 4.1 {#art-4-1}
@@ -196,6 +200,10 @@ Qualora non sia possibile il cambio per corrispondenza di ruolo, si applica l'ar
 ### 8.4 {#art-8-4}
 
 Il limite temporale per l'inserimento e la modifica della formazione coincide con l'inizio della giornata (fischio d'inizio della prima gara del turno). Trascorso tale termine non è più consentita alcuna modifica alla formazione schierata.
+
+### 8.5 {#art-8-5}
+
+In caso di mancato inserimento della formazione entro il termine di cui all'art. 8.4, il Fantallenatore viene penalizzato di 1 (un) punto nella classifica Fantacluster (campionato) per ogni giornata in cui si verifica l'inadempienza.
 
 ## Art. 9 — Fascia di punteggio e gol assegnati {#art-9}
 
