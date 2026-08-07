@@ -1,6 +1,6 @@
 ---
 lega: Fantacluster
-stagione: "2025-2026"
+stagione: "2026-2027"
 stato: vigente
 note_conversione: >
   Trascrizione fedele del documento Word originale. Le anomalie presenti
@@ -9,13 +9,13 @@ note_conversione: >
   e marcate con la classe CSS "anomalia" dove opportuno.
 ---
 
-# Regolamento Fantacluster 2025-2026
+# Regolamento Fantacluster 2026-2027
 
 ## Art. 1 — Partecipanti, Fantallenatori e nomi delle squadre {#art-1}
 
 ### 1.1 {#art-1-1}
 
-Sono iscritte, per il Fantacluster 2025-2026, le squadre di cui alla Tabella A (in ordine alfabetico).
+Sono iscritte, per il Fantacluster 2026-2027, le squadre di cui alla Tabella A (in ordine alfabetico).
 
 **Tabella A — Squadre iscritte**
 
@@ -28,7 +28,7 @@ Sono iscritte, per il Fantacluster 2025-2026, le squadre di cui alla Tabella A (
 | 5 | KUNG-FU PANDEV-MIA | Igor Verner | |
 | 6 | Herta Gambino | Andrea Gambino | Tesoriere |
 | 7 | ANATEMA FC | Matteo Berardi, Luca Colombo | |
-| 8 | Fuori Budget FC | Mattia Rizzi | |
+| 8 | Fucktotum Marieria | Mattia Rizzi, Goran Compaire | |
 | 9 | Merdsk | Stefano Musso | |
 | 10 | Las Pezia | Gianluca Sigismondi | |
 | 11 | Sestolans FC | Daniele Sestani | Presidente |

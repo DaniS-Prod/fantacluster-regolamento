@@ -4,9 +4,9 @@ Il regolamento della lega pubblicato come **sito statico** su GitHub Pages, gene
 da un unico file Markdown con uno script Python. Niente framework, niente npm,
 niente build tool: solo [`mistune`](https://mistune.lepture.com/) + un template.
 
-- **Sorgente**: [`src/regolamento-2025-26.md`](src/regolamento-2025-26.md) — la fonte di verità, in Markdown.
+- **Sorgente**: [`src/regolamento-2026-27.md`](src/regolamento-2026-27.md) — la fonte di verità, in Markdown.
 - **Output**: [`docs/index.html`](docs/index.html) — pagina unica autosufficiente, servita da Pages.
-- **Riferimento**: [`originali/`](originali/) — il `.docx` di partenza (solo consultazione, non usato dalla build).
+- **Riferimento**: [`originali/`](originali/) — i `.docx` di partenza, uno per stagione (solo consultazione, non usati dalla build).
 
 ## Caratteristiche della pagina
 
@@ -28,7 +28,7 @@ niente build tool: solo [`mistune`](https://mistune.lepture.com/) + un template.
 
 ## Rigenerare il sito dopo una modifica al Markdown
 
-1. Modifica [`src/regolamento-2025-26.md`](src/regolamento-2025-26.md).
+1. Modifica [`src/regolamento-2026-27.md`](src/regolamento-2026-27.md).
 2. Rilancia il generatore:
 
    ```bash
@@ -78,7 +78,7 @@ git push -u origin main
 
 | Elemento | Sintassi | Risultato |
 |---|---|---|
-| Titolo pagina | `# Regolamento … 2025-2026` | Titolo + stagione (anche da front matter `stagione:`) |
+| Titolo pagina | `# Regolamento … 2026-2027` | Titolo + stagione (anche da front matter `stagione:`) |
 | Articolo | `## Art. 6 — Titolo {#art-6}` | Sezione numerata «Art. 6» |
 | Comma | `### 6.4 {#art-6-4}` | Comma ancorabile `#art-6-4` |
 | Sotto-comma | `#### 6.5.1 {#art-6-5-1}` | Sotto-punto ancorabile |
