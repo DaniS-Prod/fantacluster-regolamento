@@ -120,7 +120,7 @@ alla data del presente documento, i **giocatori confermati per la stagione in co
 
 ### 4.6 {#art-4-6}
 
-Viene consentito effettuare **scambi** tra squadre durante l'asta, ma tali scambi possono avvenire solo tra una chiamata e l'altra. Ogni giocatore può essere oggetto di un massimo di un solo scambio durante l'asta. Viene fatto divieto di qualsiasi forma di compravendita triangolare di giocatori durante questo periodo.
+Viene consentito effettuare **scambi** tra squadre durante l'asta, ma tali scambi possono avvenire solo tra una chiamata e l'altra. Viene fatto divieto di qualsiasi forma di compravendita triangolare di giocatori durante questo periodo. Ogni giocatore può essere oggetto di un solo scambio per stagione, asta compresa, anche nell'ambito di scambi multipli; torna scambiabile solo in caso di svincolo.
 
 ### 4.7 {#art-4-7}
 
